@@ -61,7 +61,7 @@ public class Main {
         try {
             Main m=new Main();
             Class c=Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "praveenlaehss1", "praveenlaehss1");
+            Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "srisakthi", "srisakthi");
             if(con==null){
                 System.out.println("Server not connected");
             }
